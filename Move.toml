@@ -1,0 +1,9 @@
+[package]
+name = 'gamble'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+gamble="0x63e0b74867e0264ccc0f0ac7dd060d08af5c28bc37b3ced52e91f06e303f6e5c"
